@@ -1,0 +1,15 @@
+/* need to add "!important" for the changes to work */
+.sidebar__tweet {
+    background-color: var(--twitter-color) !important;
+    border: none !important;
+    color: #fff !important;
+    text-transform: inherit !important;
+    border-radius: 30px !important;
+    width: var(--sidebar-width) !important;
+    
+    /* H3 values */
+    margin: 1em, 0 !important;
+    font-size: 1.17em !important;
+    font-weight: 700 !important;
+    letter-spacing: 1px !important;
+}
