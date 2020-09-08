@@ -3,8 +3,8 @@ import "./SidebarOption.css";
 
 function SidebarOption(props) {
     return (
-        <div className="sidebarOption">
-            <props.Icon />
+        <div className="sidebarOption" tabindex="1">
+            <props.Icon/>
             <h2>{props.text}</h2>
         </div>
     );

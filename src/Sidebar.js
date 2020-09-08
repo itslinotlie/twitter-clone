@@ -1,6 +1,7 @@
 import React from "react";
 import "./Sidebar.css";
 import SidebarOption from "./SidebarOption";
+// Icon imports
 import TwitterIcon from "@material-ui/icons/Twitter";
 import HomeIcon from "@material-ui/icons/Home";
 import SearchIcon from '@material-ui/icons/Search';
