@@ -22,3 +22,15 @@ $<variable name> without needing to import
 .sidebarOption > .MuiSvgIcon-root { 
     padding: 20px;
 }
+/* When resolution <=1282, do this */
+@media (max-width:1282px) {
+    .sidebarOption > h2 {
+        display:none;
+    }
+    .sidebarOption {
+        width: 100px;
+    }
+    /* .sidebarOption > .MuiSvgIcon-root {
+        padding: 0;
+    } */
+}

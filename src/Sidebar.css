@@ -28,3 +28,9 @@
     font-weight: 700 !important;
     letter-spacing: 1px !important;
 }
+
+@media (max-width:1282px) {
+    .sidebar{
+        padding: 0;
+    }
+}
