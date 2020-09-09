@@ -1,4 +1,19 @@
 /* need to add "!important" for the changes to work */
+.sidebar {
+    border-right: 1px solid var(--twitter-background);
+    flex: 0.2;
+    /* min-width: 200px; */
+    /* margin: 20px 0 0; */
+    margin-top: 20px;
+    padding: 0 20px;
+}
+
+.sidebar__twitterIcon {
+    color: var(--twitter-color);
+    font-size: 30px !important;
+    margin: 0 0 20px 20px;
+}
+
 .sidebar__tweet {
     background-color: var(--twitter-color) !important;
     border: none !important;
@@ -8,7 +23,7 @@
     width: var(--sidebar-width) !important;
     
     /* H3 values */
-    margin: 1em, 0 !important;
+    margin: 2em 0 !important;
     font-size: 1.17em !important;
     font-weight: 700 !important;
     letter-spacing: 1px !important;
