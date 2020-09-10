@@ -1,26 +1,23 @@
-/* need to add "!important" for the changes to work */
+@import "./variables.scss";
+// need to add "!important" for the changes to work 
 .sidebar {
-    border-right: 1px solid var(--twitter-background);
+    border-right: 1px solid $twitter-background;
     flex: 0.2;
-    /* min-width: 200px; */
-    /* margin: 20px 0 0; */
     margin-top: 20px;
     padding: 0 20px;
 }
-
 .sidebar__twitterIcon {
-    color: var(--twitter-color);
+    color: $twitter-color;
     font-size: 30px !important;
     margin: 0 0 20px 20px;
 }
-
 .sidebar__tweet {
-    background-color: var(--twitter-color) !important;
+    background-color: $twitter-color !important;
     border: none !important;
     color: #fff !important;
     text-transform: inherit !important;
     border-radius: 30px !important;
-    width: var(--sidebar-width) !important;
+    width: $sidebar-width !important;
     
     /* H3 values */
     margin: 2em 0 !important;
@@ -29,8 +26,10 @@
     letter-spacing: 1px !important;
 }
 
-@media (max-width:1282px) {
+@media (max-width: $sidebar-text-width) {
     .sidebar{
         padding: 0;
+        border: 1px solid black;
+        width: 25px;
     }
 }

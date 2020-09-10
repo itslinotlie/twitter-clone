@@ -1,3 +1,4 @@
+@import "./variables.scss";
 .feed {
     flex: 0.5;
     min-width: fit-content;
@@ -8,6 +9,6 @@
     position: sticky;
     top: 0;
     z-index: 100;
-    border: 1px solid var(--twitter-background);
+    border: 1px solid $twitter-background;
     padding: 15px 20px;
 }

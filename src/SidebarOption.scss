@@ -1,14 +1,11 @@
-/* 
-var(<variable name>) is the scss equilvalent of 
-$<variable name> without needing to import 
-(because of how it was defined in App.css 0.o  */
+@import "./variables.scss";
 .sidebarOption:hover {
-    background-color: var(--twitter-background);
-    color: var(--twitter-color);
+    background-color: $twitter-background;
+    color: $twitter-color;
     border-radius: 30px;
 }
 .sidebarOption:focus {
-    color: var(--twitter-color);
+    color: $twitter-color;
     outline: none;
 }
 .sidebarOption {
@@ -16,21 +13,18 @@ $<variable name> without needing to import
     align-items: center;
     cursor: pointer;
     color: #000;
-    width: var(--sidebar-width);
+    width: $sidebar-width;
 }
 /* Found ".MuiSvgIcon-root" through Inspector */
 .sidebarOption > .MuiSvgIcon-root { 
     padding: 20px;
 }
 /* When resolution <=1282, do this */
-@media (max-width:1282px) {
+@media (max-width: $sidebar-text-width) {
     .sidebarOption > h2 {
         display:none;
     }
     .sidebarOption {
-        width: 100px;
+        width: 30px;
     }
-    /* .sidebarOption > .MuiSvgIcon-root {
-        padding: 0;
-    } */
 }

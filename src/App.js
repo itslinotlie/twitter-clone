@@ -2,7 +2,7 @@ import React from "react";
 import Sidebar from "./Sidebar";
 import Feed from "./Feed";
 import Widget from "./Widget";
-import "./App.css";
+import "./App.scss";
 
 function App() {
   return (
