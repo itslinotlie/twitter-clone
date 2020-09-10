@@ -14,6 +14,9 @@
     cursor: pointer;
     color: #000;
     width: $sidebar-width;
+    margin: 0;
+    padding: 0;
+    padding-right: 140px;
 }
 /* Found ".MuiSvgIcon-root" through Inspector */
 .sidebarOption > .MuiSvgIcon-root { 
@@ -23,8 +26,11 @@
 @media (max-width: $sidebar-text-width) {
     .sidebarOption > h2 {
         display:none;
+        padding-right: 35px;
     }
     .sidebarOption {
-        width: 30px;
+        // width: 30px;
+        border: 1px solid black;
+        // padding-right: 5em;
     }
 }

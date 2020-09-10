@@ -2,9 +2,12 @@
 // need to add "!important" for the changes to work 
 .sidebar {
     border-right: 1px solid $twitter-background;
-    flex: 0.2;
     margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
     padding: 0 20px;
+    width: 200px;
+    border: 3px solid lawngreen;
 }
 .sidebar__twitterIcon {
     color: $twitter-color;
@@ -28,8 +31,9 @@
 
 @media (max-width: $sidebar-text-width) {
     .sidebar{
-        padding: 0;
-        border: 1px solid black;
-        width: 25px;
+        // padding: 0;
+        width: 30px;
+        // padding-right: 2em;
+        // border: 1px solid red;
     }
 }
