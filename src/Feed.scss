@@ -1,9 +1,8 @@
 @import "./variables.scss";
 .feed {
-    width: 600px;
-    min-width: fit-content;
+    width: $feed-width;
     overflow-y: scroll;
-    border: 3px solid lightblue;
+    // border: 3px solid lightblue;
 }
 
 .feed__header {
@@ -11,10 +10,11 @@
     top: 0;
     z-index: 100;
     border: 1px solid $twitter-background;
-    padding: 15px 20px;
+    // padding: 15px 20px;
 }
 @media (max-width: $sidebar-widget-width) {
     .feed {
         margin-right: auto;
+        // width: auto;
     }
 }

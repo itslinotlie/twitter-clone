@@ -2,12 +2,13 @@
 // need to add "!important" for the changes to work 
 .sidebar {
     border-right: 1px solid $twitter-background;
-    margin-top: 20px;
+    margin-top: 10px;
     margin-left: auto;
-    margin-right: auto;
-    padding: 0 20px;
-    width: 200px;
-    border: 3px solid lawngreen;
+    padding-left: 10px;
+    padding-right: $sidebar-margin-right;
+    margin-right: 0;
+    width: $sidebar-width;
+    // border: 3px solid lawngreen;
 }
 .sidebar__twitterIcon {
     color: $twitter-color;
@@ -31,9 +32,13 @@
 
 @media (max-width: $sidebar-text-width) {
     .sidebar{
-        // padding: 0;
         width: 30px;
-        // padding-right: 2em;
-        // border: 1px solid red;
+        padding-right: 50px;
+    }
+}
+@media (max-width: $sidebar-text-bloop) {
+    .sidebar {
+        padding-left: 2px;
+        padding-right: 25px;
     }
 }
